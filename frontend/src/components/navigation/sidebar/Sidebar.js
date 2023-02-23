@@ -4,7 +4,16 @@ import './sidebar.css'
 const Sidebar = () => {
   return (
     <div className='sidebar-container' >
-      sidebar
+      <div className="sidebar-nav">
+      <ul>
+        <li>home</li>
+        <li>rooms</li>
+        <li>rezervation</li>
+        <li>gests</li>
+        <li>personal</li>
+        <li>nots</li>
+      </ul>
+      </div>
     </div>
   )
 }
