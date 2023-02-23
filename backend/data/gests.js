@@ -21,4 +21,4 @@ const gests =[
   }
 ]
 
-module.exports = gests
+export default gests
