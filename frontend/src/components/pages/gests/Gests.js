@@ -25,6 +25,7 @@ const Gests = () => {
             <th>id number</th>
             <th>phone number</th>
             <th>payment type</th>
+            <th>price</th>
             <th>entery date</th>
             <th>check out date</th>
           </tr>
@@ -37,6 +38,8 @@ const Gests = () => {
               {/* <td>{gest.surname}</td> */}
               <td>{gest.id_number}</td>
               <td>{gest.phone_number}</td>
+              <td>{gest.payment_method}</td>
+              <td>{gest.price}</td>
             </tr>
           ))}
         </table>

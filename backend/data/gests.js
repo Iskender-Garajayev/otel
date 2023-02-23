@@ -18,6 +18,16 @@ const gests =[
     phone_number: '+90 545 152 23 43',
     price: '500',
     payment_method: 'cash'
+  },
+  {
+    _id: '8',
+    id_number: '987585648762',
+    name: 'mehmet',
+    surname: 'kaba',
+    room_number: '9',
+    phone_number: '+90 545 152 23 43',
+    price: '500',
+    payment_method: 'cash'
   }
 ]
 
