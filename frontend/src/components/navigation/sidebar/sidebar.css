@@ -11,6 +11,11 @@
 
 .sidebar-nav ul li{
   list-style: none;
+  
+}
+
+.sidebar-nav ul li a{
+  text-decoration: none;
   text-transform: capitalize;
   color: rgb(73, 68, 68);
   font-weight: 500;

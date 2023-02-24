@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Sidebar from "../../navigation/sidebar/Sidebar";
+import Navbar from "../../navigation/navbar/Navbar";
 
 const Gests = () => {
   const [gests, setGests] = useState([]);
@@ -15,8 +17,10 @@ const Gests = () => {
   }, []);
 
   return (
-    <div>
-      <div>
+    <div className='home-container'>
+      <Sidebar/>
+      <div  className="home-container-screen">
+        <Navbar/>
         <table>
           <tr>
             <th>room number</th>

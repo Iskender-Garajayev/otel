@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from '../sidebar/Sidebar'
 import Navbar from '../navbar/Navbar'
-import Gests from '../../pages/gests/Gests'
+// import Gests from '../../pages/gests/Gests'
 import './home.css'
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
       <Sidebar/>
       <div className="home-container-screen">
         <Navbar/>
-        <Gests/>
+        
       </div>
     </div>
   )

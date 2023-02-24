@@ -2,16 +2,16 @@ import React from 'react'
 import Navbar from '../../navigation/navbar/Navbar'
 import Sidebar from '../../navigation/sidebar/Sidebar'
 
-const Registr = () => {
+const Rooms = () => {
   return (
     <div className='home-container'>
-    <Sidebar/>
-    <div className="home-container-screen">
-      <Navbar/>
-      <h2>registration</h2>
+      <Sidebar/>
+      <div className="home-container-screen">
+        <Navbar/>
+        <h1>Rooms</h1>
+      </div>
     </div>
-  </div>
   )
 }
 
-export default Registr
+export default Rooms
