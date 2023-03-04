@@ -21,7 +21,7 @@ const Gests = () => {
       <Sidebar/>
       <div  className="home-container-screen">
         <Navbar/>
-        <table>
+        <table className="gest-table">
           <tr>
             <th>room number</th>
             <th>full name</th>

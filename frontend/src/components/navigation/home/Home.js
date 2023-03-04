@@ -10,7 +10,7 @@ const Home = () => {
       <Sidebar/>
       <div className="home-container-screen">
         <Navbar/>
-        
+        <h2>Home</h2>
       </div>
     </div>
   )
